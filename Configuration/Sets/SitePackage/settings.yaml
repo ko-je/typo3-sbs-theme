@@ -1,0 +1,31 @@
+plugin:
+  bootstrap_package:
+    settings:
+      scss:
+        primary: '#eb3e4a'
+        secondary: '#013859'
+        font-family-monospace: "Roboto,SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace"
+        font-family-sans-serif: "Roboto,\"#{$google-webfont}\", sans-serif"
+    view:
+      layoutRootPath: 'EXT:sbs_theme/Resources/Private/Layouts/'
+      partialRootPath: 'EXT:sbs_theme/Resources/Private/Partials/'
+      templateRootPath: 'EXT:sbs_theme/Resources/Private/Templates/'
+  bootstrap_package_contentelements:
+    view:
+      layoutRootPath: 'EXT:sbs_theme/Resources/Private/Layouts/ContentElements/'
+      partialRootPath: 'EXT:sbs_theme/Resources/Private/Partials/ContentElements/'
+      templateRootPath: 'EXT:sbs_theme/Resources/Private/Templates/ContentElements/'
+page:
+  logo:
+    file: 'EXT:sbs_theme/Resources/Public/Images/Logo-sbs.png'
+    fileInverted: 'EXT:sbs_theme/Resources/Public/Images/logo-inverted.svg'
+    width: 404
+    height: 184
+    alt: 'My Site Package'
+    linktitle: 'My Site Package'
+  favicon:
+    file: 'EXT:sbs_theme/Resources/Public/Icons/favicon.ico'
+  fluidtemplate:
+    layoutRootPath: 'EXT:sbs_theme/Resources/Private/Layouts/Page/'
+    partialRootPath: 'EXT:sbs_theme/Resources/Private/Partials/Page/'
+    templateRootPath: 'EXT:sbs_theme/Resources/Private/Templates/Page/'

@@ -1,0 +1,11 @@
+name: sbm/product
+table: tx_sbm_product
+prefixFields: false
+labelField: title
+security:
+  ignorePageTypeRestriction: true
+fields:
+  -
+    identifier: title
+    type: Text
+    label: Title

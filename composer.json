@@ -1,0 +1,21 @@
+{
+    "name": "sbs/sbs-theme",
+    "type": "typo3-cms-extension",
+    "description": "Design für Störtebeker Brauspezialitäten",
+    "homepage": "https://www.stoertebeker.com",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "bk2k/bootstrap-package": "^15.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sbs\\SbsTheme\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "sbs_theme"
+        }
+    }
+}

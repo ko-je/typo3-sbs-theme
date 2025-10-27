@@ -1,0 +1,4 @@
+name: sbs/sbs-theme
+label: 'SBS Theme'
+dependencies:
+  - bootstrap-package/full

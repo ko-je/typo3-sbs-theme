@@ -1,0 +1,108 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4154738, 2021-08-23T08:59:52-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: RovesSansRough by Andrew Footit
+ * URL: https://www.myfonts.com/fonts/virtuecreative/roves/sans-rough/
+ * Copyright: Roves Rough &amp;#x00A9; Andrew Footit. 2016. All Rights Reserved
+ * 
+ * Webfont: RovesSansRough-Bold by Andrew Footit
+ * URL: https://www.myfonts.com/fonts/virtuecreative/roves/sans-rough-bold/
+ * Copyright: Roves Rough &amp;#x00A9; Andrew Footit. 2016. All Rights Reserved
+ * 
+ * Webfont: RovesSansPress by Andrew Footit
+ * URL: https://www.myfonts.com/fonts/virtuecreative/roves/sans-press/
+ * Copyright: Roves Rough &amp;#x00A9; Andrew Footit. 2016. All Rights Reserved
+ * 
+ * Webfont: RovesSansPress-Bold by Andrew Footit
+ * URL: https://www.myfonts.com/fonts/virtuecreative/roves/sans-press-bold/
+ * Copyright: Roves Rough &amp;#x00A9; Andrew Footit. 2016. All Rights Reserved
+ * 
+ * Webfont: RovesStencilPressTwo by Andrew Footit
+ * URL: https://www.myfonts.com/fonts/virtuecreative/roves/stencil-press-two/
+ * Copyright: Roves Press &amp;#x00A9; Andrew Footit. 2016. All Rights Reserved
+ * 
+ * Webfont: RovesStencilPress by Andrew Footit
+ * URL: https://www.myfonts.com/fonts/virtuecreative/roves/stencil-press/
+ * Copyright: Roves Press &amp;#x00A9; Andrew Footit. 2016. All Rights Reserved
+ * 
+ * Webfont: RovesStencilPress-Bold by Andrew Footit
+ * URL: https://www.myfonts.com/fonts/virtuecreative/roves/stencil-press-bold/
+ * Copyright: Roves Press &amp;#x00A9; Andrew Footit. 2016. All Rights Reserved
+ * 
+ * Webfont: RovesStencilPressTwo-Bold by Andrew Footit
+ * URL: https://www.myfonts.com/fonts/virtuecreative/roves/stencil-press-two-bold/
+ * Copyright: Roves Press &amp;#x00A9; Andrew Footit. 2016. All Rights Reserved
+ * 
+ * Webfont: RovesStencilRough by Andrew Footit
+ * URL: https://www.myfonts.com/fonts/virtuecreative/roves/stencil-rough/
+ * Copyright: Roves Rough &amp;#x00A9; Andrew Footit. 2016. All Rights Reserved
+ * 
+ * Webfont: RovesStencilRough-Bold by Andrew Footit
+ * URL: https://www.myfonts.com/fonts/virtuecreative/roves/stencil-rough-bold/
+ * Copyright: Roves Press &amp;#x00A9; Andrew Footit. 2016. All Rights Reserved
+ * 
+ * Webfont: MichiganSignature-Regular by Cititype
+ * URL: https://www.myfonts.com/fonts/cititype/michigan-signature/regular/
+ * Copyright: null
+ * 
+ * 
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3f6572");
+  
+@font-face {
+  font-family: "RovesStencilRough-Bold";
+  src: url('webFonts/RovesStencilRoughBold/font.woff2') format('woff2'), url('webFonts/RovesStencilRoughBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "RovesStencilRough";
+  src: url('webFonts/RovesStencilRough/font.woff2') format('woff2'), url('webFonts/RovesStencilRough/font.woff') format('woff');
+}
+@font-face {
+  font-family: "RovesSansRough";
+  src: url('webFonts/RovesSansRough/font.woff2') format('woff2'), url('webFonts/RovesSansRough/font.woff') format('woff');
+}
+@font-face {
+  font-family: "RovesSansPress";
+  src: url('webFonts/RovesSansPress/font.woff2') format('woff2'), url('webFonts/RovesSansPress/font.woff') format('woff');
+}
+@font-face {
+  font-family: "RovesSansPress-Bold";
+  src: url('webFonts/RovesSansPressBold/font.woff2') format('woff2'), url('webFonts/RovesSansPressBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "RovesStencilPressTwo-Bold";
+  src: url('webFonts/RovesStencilPressTwoBold/font.woff2') format('woff2'), url('webFonts/RovesStencilPressTwoBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "RovesSansRough-Bold";
+  src: url('webFonts/RovesSansRoughBold/font.woff2') format('woff2'), url('webFonts/RovesSansRoughBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "MichiganSignature-Regular";
+  src: url('webFonts/MichiganSignatureRegular/font.woff2') format('woff2'), url('webFonts/MichiganSignatureRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "RovesStencilPressTwo";
+  src: url('webFonts/RovesStencilPressTwo/font.woff2') format('woff2'), url('webFonts/RovesStencilPressTwo/font.woff') format('woff');
+}
+@font-face {
+  font-family: "RovesStencilPress";
+  src: url('webFonts/RovesStencilPress/font.woff2') format('woff2'), url('webFonts/RovesStencilPress/font.woff') format('woff');
+}
+@font-face {
+  font-family: "RovesStencilPress-Bold";
+  src: url('webFonts/RovesStencilPressBold/font.woff2') format('woff2'), url('webFonts/RovesStencilPressBold/font.woff') format('woff');
+}
+

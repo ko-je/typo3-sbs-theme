@@ -1,0 +1,21 @@
+page {
+    includeCSS {
+        theme = EXT:sbs_theme/Resources/Public/Scss/Theme/theme.scss
+    }
+
+    includeJSLibs {
+
+    }
+
+    includeJS {
+
+    }
+
+    includeJSFooterlibs {
+
+    }
+
+    includeJSFooter {
+        sbs_theme_scripts = EXT:sbs_theme/Resources/Public/JavaScript/main.js
+    }
+}
