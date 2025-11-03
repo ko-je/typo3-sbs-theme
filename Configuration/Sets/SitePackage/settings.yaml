@@ -2,7 +2,7 @@ plugin:
   bootstrap_package:
     settings:
       scss:
-        primary: '#eb3e4a'
+        primary: '#A2270C'
         secondary: '#013859'
         font-family-monospace: "Roboto,SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace"
         font-family-sans-serif: "Roboto,\"#{$google-webfont}\", sans-serif"
