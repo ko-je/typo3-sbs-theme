@@ -1,0 +1,30 @@
+.carousel {
+    .carousel-item-type{
+        &-call_to_action {
+            .carousel-content-inner {
+                justify-content: flex-start; /* horizontal: links */
+                align-items: flex-end;       /* vertikal: unten */
+            }
+            .carousel-box {
+                max-width: 100%;
+                color: $white;
+                background-color: transparent;
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr;
+            }
+            .carousel-item-subheader{
+                grid-row: 1;
+            }
+            .carousel-item-header {
+                grid-row: 2;
+            }
+            .carousel-item-bodytext {
+                grid-row: 3;
+            }
+            .carousel-item-button {
+                grid-row: 4;
+                justify-self: start;
+            }
+        }
+    }
+}

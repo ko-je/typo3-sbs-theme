@@ -11,6 +11,19 @@ TCEFORM {
 
     }
     tt_content {
+        imagecols {
+            addItems {
+                0 = Keine Spalten
+            }
+        }
+        subheader_class {
+            removeItems = h1,h4,h5
+            addItems {
+                link-kompass = Sorten Kompass 
+                link-shop = Shop Link
+                link-arrow = Link-Arrow
+            }
+        }
 
     }
 }

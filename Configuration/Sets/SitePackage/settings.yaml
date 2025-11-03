@@ -2,7 +2,7 @@ plugin:
   bootstrap_package:
     settings:
       scss:
-        primary: '#eb3e4a'
+        primary: '#A2270C'
         secondary: '#013859'
         font-family-monospace: "Roboto,SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace"
         font-family-sans-serif: "Roboto,\"#{$google-webfont}\", sans-serif"
@@ -15,6 +15,13 @@ plugin:
       layoutRootPath: 'EXT:sbs_theme/Resources/Private/Layouts/ContentElements/'
       partialRootPath: 'EXT:sbs_theme/Resources/Private/Partials/ContentElements/'
       templateRootPath: 'EXT:sbs_theme/Resources/Private/Templates/ContentElements/'
+    media:
+      additionalConfig:
+        autoplay: 1
+        controls: 0
+        loop: 1
+        showinfo: 0 
+
 page:
   logo:
     file: 'EXT:sbs_theme/Resources/Public/Images/Logo-sbs.png'
@@ -29,3 +36,4 @@ page:
     layoutRootPath: 'EXT:sbs_theme/Resources/Private/Layouts/Page/'
     partialRootPath: 'EXT:sbs_theme/Resources/Private/Partials/Page/'
     templateRootPath: 'EXT:sbs_theme/Resources/Private/Templates/Page/'
+
