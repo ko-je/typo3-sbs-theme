@@ -15,6 +15,13 @@ plugin:
       layoutRootPath: 'EXT:sbs_theme/Resources/Private/Layouts/ContentElements/'
       partialRootPath: 'EXT:sbs_theme/Resources/Private/Partials/ContentElements/'
       templateRootPath: 'EXT:sbs_theme/Resources/Private/Templates/ContentElements/'
+    media:
+      additionalConfig:
+        autoplay: 1
+        controls: 0
+        loop: 1
+        showinfo: 0 
+
 page:
   logo:
     file: 'EXT:sbs_theme/Resources/Public/Images/Logo-sbs.png'
