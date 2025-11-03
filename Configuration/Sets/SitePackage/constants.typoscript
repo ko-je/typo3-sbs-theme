@@ -1,0 +1,10 @@
+plugin.bootstrap_package_contentelements {
+    gallery {
+        columns {
+            0 {
+                # cat=bootstrap package: content elements/140_contentelement/001_columns_1_class; type=string; label=Item CSS Class for 1 column
+                class = gallery-item-size-all
+            }
+        }
+    }
+}

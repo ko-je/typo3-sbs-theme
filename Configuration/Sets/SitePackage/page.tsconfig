@@ -11,6 +11,11 @@ TCEFORM {
 
     }
     tt_content {
+        imagecols {
+            addItems {
+                0 = Keine Spalten
+            }
+        }
 
     }
 }

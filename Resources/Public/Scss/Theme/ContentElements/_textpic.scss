@@ -1,0 +1,11 @@
+.frame-type-textpic {
+    .gallery-item-no-cols {
+        width: auto;
+    }
+    .textpic-above {
+        gap: 0.5rem;
+        .gallery-row {
+            justify-content: center;
+        }
+    }
+}

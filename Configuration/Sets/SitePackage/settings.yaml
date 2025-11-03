@@ -29,3 +29,4 @@ page:
     layoutRootPath: 'EXT:sbs_theme/Resources/Private/Layouts/Page/'
     partialRootPath: 'EXT:sbs_theme/Resources/Private/Partials/Page/'
     templateRootPath: 'EXT:sbs_theme/Resources/Private/Templates/Page/'
+
