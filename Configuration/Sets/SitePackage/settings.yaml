@@ -4,8 +4,8 @@ plugin:
       scss:
         primary: '#A2270C'
         secondary: '#013859'
-        font-family-monospace: "Roboto,SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace"
-        font-family-sans-serif: "Roboto,\"#{$google-webfont}\", sans-serif"
+        font-family-monospace: "corporate-s,SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace"
+        font-family-sans-serif: "corporate-s,\"#{$google-webfont}\", sans-serif"
     view:
       layoutRootPath: 'EXT:sbs_theme/Resources/Private/Layouts/'
       partialRootPath: 'EXT:sbs_theme/Resources/Private/Partials/'

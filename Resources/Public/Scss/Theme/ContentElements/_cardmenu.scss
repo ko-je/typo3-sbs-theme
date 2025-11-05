@@ -1,0 +1,33 @@
+.frame-type-menu_card_list {
+    .card-body {
+        display: grid;
+        grid-template-areas:
+            "subtitle subtitle icon"
+            "title title title"
+            "text text text";
+    }
+    .card-icon {
+        grid-area: icon;
+        justify-self: end;
+    }
+    .card-subtitle {
+        grid-area: subtitle;
+        font-family: corporate-s, sans-serif;
+        font-size: 22px;
+        line-height: 23px;
+    }
+    .card-title {
+        grid-area: title;
+    }
+    h2.card-title {
+        font-size: 36px;
+        line-height: 39px;
+    }
+    h3.card-title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .card-text {
+        grid-area: text;
+    }
+}
