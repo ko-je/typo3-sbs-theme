@@ -12,6 +12,7 @@ $gray-700:                          #494949 !default;
 $gray-800:                          #313131 !default;
 $gray-900:                          #212121 !default;
 $black:                             #000000 !default;
+$red:                               #A2270C !default;
 
 $primary:                           #577760 !default;
 $secondary:                         #514553 !default;
@@ -47,12 +48,26 @@ $theme-colors: (
 $body-bg:                           $white !default;
 $body-color:                        $gray-900 !default;
 
-//
 // Options
-// --------------------------------------------------
-$enable-shadows:                    true !default;
-$enable-negative-margins:           true !default;
-$enable-responsive-font-sizes:      true !default;
+//
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-caret:                true !default;
+$enable-rounded:              false !default;
+$enable-shadows:              false !default;
+$enable-gradients:            false !default;
+$enable-transitions:          true !default;
+$enable-reduced-motion:       true !default;
+$enable-smooth-scroll:        true !default;
+$enable-grid-classes:         true !default;
+$enable-container-classes:    true !default;
+$enable-cssgrid:              true !default;
+$enable-button-pointers:      true !default;
+$enable-rfs:                  true !default;
+$enable-validation-icons:     true !default;
+$enable-negative-margins:     false !default;
+$enable-deprecation-messages: true !default;
+$enable-important-utilities:  true !default;
 
 //
 // Fonts
@@ -77,23 +92,52 @@ $display-font-sizes: (
 ) !default;
 
 
-// scss-docs-start headings-variables
-$headings-font-family:        "PT-Serif" !default;
 
-$display-font-family: "PT-Serif" !default;
+
+// scss-docs-start headings-variables
+$headings-font-family:        "corporate-e" !default;
+
+$display-font-family: "corporate-e" !default;
 // scss-docs-end display-headings
 
-$input-btn-font-family:       "Ultra" !default;
+$input-btn-font-family:       "corporate-s" !default;
 
 //
 // Breakpoints
 // --------------------------------------------------
 $grid-float-breakpoint:             992px !default;
 
+//$grid-gutter-width:                0px !default;
+
+// Grid breakpoints
 //
-// Grid
-// --------------------------------------------------
-$grid-gutter-width:                 40px !default;
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+// scss-docs-start grid-breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1280px
+) !default;
+
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+// scss-docs-start container-max-widths
+$container-max-widths: (
+  sm: 540px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1280px
+) !default;
+
 
 //
 // Navbar

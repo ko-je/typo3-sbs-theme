@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="de" datatype="plaintext" original="messages" date="2025-11-05T10:00:00Z" product-name="bootstrap_package">
+        <header/>
+        <body>
+            <trans-unit id="skiptomainnavigation"><source>Zum Hauptmenü springen</source></trans-unit>
+            <trans-unit id="skiptomaincontent"><source>Zum Hauptinhalt springen</source></trans-unit>
+            <trans-unit id="skiptopagefooter"><source>Zum Seitenfuß springen</source></trans-unit>
+            <trans-unit id="skipnavigation"><source>Navigation überspringen</source></trans-unit>
+            <trans-unit id="scrolltop"><source>Nach oben scrollen</source></trans-unit>
+            <trans-unit id="togglenavigation"><source>Navigation ein-/ausblenden</source></trans-unit>
+            <trans-unit id="linktop"><source>Nach oben</source></trans-unit>
+            <trans-unit id="navigation.link.screenreader.current"><source>aktuell</source></trans-unit>
+            <trans-unit id="main-navigation.label"><source>Hauptnavigation</source></trans-unit>
+            <trans-unit id="sub-navigation.label"><source>Unternavigation</source></trans-unit>
+            <trans-unit id="breadcrumb"><source>Sie sind hier:</source></trans-unit>
+            <trans-unit id="breadcrumb.label"><source>Brotkrumen</source></trans-unit>
+            <trans-unit id="previous"><source>Zurück</source></trans-unit>
+            <trans-unit id="next"><source>Weiter</source></trans-unit>
+            <trans-unit id="readmore"><source>weiterlesen ...</source></trans-unit>
+            <trans-unit id="externalmediaunsupported"><source>Die externe Medienquelle %s wird nicht unterstützt. Bitte geben Sie eine gültige YouTube- oder Vimeo-URL an.</source></trans-unit>
+            <trans-unit id="lightbox.screenreader.label"><source>Größere Version anzeigen</source></trans-unit>
+            <trans-unit id="lightbox.screenreader.alternative.prefix"><source>Größere Version anzeigen von:</source></trans-unit>
+            <trans-unit id="carousel.indicator.title"><source>Gehe zu Folie: %s</source></trans-unit>
+            <trans-unit id="contact.label"><source>Kontakt</source></trans-unit>
+            <trans-unit id="contact.button.label"><source>Kontakt aufnehmen</source></trans-unit>
+            <trans-unit id="form.browse"><source>Durchsuchen</source></trans-unit>
+            <trans-unit id="form.selectfile"><source>Datei auswählen</source></trans-unit>
+            <trans-unit id="element.contactform.renderingOptions.submitButtonLabel"><source>Absenden</source></trans-unit>
+            <trans-unit id="contactform.element.mandatory.properties.label"><source>Ihre persönlichen Daten</source></trans-unit>
+            <trans-unit id="contactform.element.mandatory.properties.text"><source>Pflichtfelder sind mit * gekennzeichnet</source></trans-unit>
+            <trans-unit id="contactform.element.fullname.properties.label"><source>Vor- und Nachname</source></trans-unit>
+            <trans-unit id="contactform.element.fullname.properties.placeholder"><source>Vor- und Nachname</source></trans-unit>
+            <trans-unit id="contactform.element.company.properties.label"><source>Firma</source></trans-unit>
+            <trans-unit id="contactform.element.company.properties.placeholder"><source>Firma</source></trans-unit>
+            <trans-unit id="contactform.element.email.properties.label"><source>E-Mail</source></trans-unit>
+            <trans-unit id="contactform.element.email.properties.placeholder"><source>E-Mail</source></trans-unit>
+            <trans-unit id="contactform.element.subject.properties.label"><source>Betreff</source></trans-unit>
+            <trans-unit id="contactform.element.subject.properties.placeholder"><source>Betreff</source></trans-unit>
+            <trans-unit id="contactform.element.message.properties.label"><source>Nachricht</source></trans-unit>
+            <trans-unit id="contactform.element.message.properties.placeholder"><source>Nachricht</source></trans-unit>
+            <trans-unit id="contactform.element.summary.properties.label"><source>Zusammenfassung</source></trans-unit>
+            <trans-unit id="searchForm.element.defaultOperand.label"><source>Übereinstimmung in</source></trans-unit>
+            <trans-unit id="searchForm.element.language.label"><source>Sprache</source></trans-unit>
+            <trans-unit id="searchForm.element.sortDesc.label"><source>Anzeigereihenfolge</source></trans-unit>
+            <trans-unit id="cookieconsent.common.header"><source>Wir verwenden Cookies</source></trans-unit>
+            <trans-unit id="cookieconsent.common.message"><source>Diese Website verwendet Cookies, um Ihnen das beste Erlebnis auf unserer Website zu bieten.</source></trans-unit>
+            <trans-unit id="cookieconsent.common.dismiss"><source>Verstanden!</source></trans-unit>
+            <trans-unit id="cookieconsent.common.allow"><source>Cookies erlauben</source></trans-unit>
+            <trans-unit id="cookieconsent.common.deny"><source>Ablehnen</source></trans-unit>
+            <trans-unit id="cookieconsent.common.link"><source>Mehr erfahren</source></trans-unit>
+            <trans-unit id="pagination.aria.label"><source>Seitennavigation</source></trans-unit>
+            <trans-unit id="pagination.next"><source>Weiter</source></trans-unit>
+            <trans-unit id="pagination.previous"><source>Zurück</source></trans-unit>
+            <trans-unit id="pagination.aria.current.page"><source>Aktuelle Seite, Seite %s</source></trans-unit>
+            <trans-unit id="pagination.aria.goto.page"><source>Gehe zu Seite %s</source></trans-unit>
+            <trans-unit id="pagination.aria.goto.next"><source>Gehe zur nächsten Seite</source></trans-unit>
+            <trans-unit id="pagination.aria.goto.previous"><source>Gehe zur vorherigen Seite</source></trans-unit>
+        </body>
+    </file>
+</xliff>

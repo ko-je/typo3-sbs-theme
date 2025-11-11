@@ -9,3 +9,11 @@
 @import "EXT:bootstrap_package/Resources/Public/Scss/bootstrap5/theme";
 
 @import 'Fonts/fonts';
+@import 'BasicElements/frame';
+@import 'BasicElements/button';
+@import 'ContentElements/textpic';
+@import 'ContentElements/cardmenu';
+@import 'ContentElements/header';
+@import 'ContentElements/carousel';
+
+@import "custom";

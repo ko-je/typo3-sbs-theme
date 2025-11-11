@@ -1,0 +1,3 @@
+# CONTENT ELEMENT RENDERING
+# Manual inclusion to keep control over loading order
+@import 'EXT:sbs_theme/Configuration/TypoScript/ContentElement/Element/Textpic.typoscript'

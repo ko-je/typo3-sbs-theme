@@ -1,0 +1,21 @@
+.frame-container-default {
+   /* max-width: 100%;*/
+}
+
+.section > .container {
+    padding: 0;
+    .section-row {
+        --section-gap-x: 0px;
+    }
+    .section-column {
+        padding-right: calc(var(--section-gap-x) * .5);
+        padding-left: calc(var(--section-gap-x) * .5);
+    }
+}
+.section-column-half {
+    .frame {
+        height: 100%;   
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+}

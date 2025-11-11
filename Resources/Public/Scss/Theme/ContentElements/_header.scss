@@ -1,0 +1,22 @@
+.frame-header-button {
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    .element-header {
+        grid-column: 1;
+    }
+    .button-header {
+        grid-column: 2;
+        justify-self: end;
+    }
+    p {
+        grid-column: 1;
+        grid-row: 2
+    }
+
+}
+.section-column-half {
+    .frame-header {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

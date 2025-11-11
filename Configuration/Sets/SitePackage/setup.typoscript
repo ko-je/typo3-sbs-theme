@@ -1,5 +1,10 @@
+@import 'EXT:sbs_theme/Configuration/TypoScript/ContentElement/setup.typoscript'
+
+
 page {
     includeCSS {
+        fonts = https://use.typekit.net/iti5jqw.css
+        fonts.external = 1 
         theme = EXT:sbs_theme/Resources/Public/Scss/Theme/theme.scss
     }
 
