@@ -1,0 +1,31 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<section class="section footer-section footer-section-content">
+    <div class="container">
+        <div class="section-row">
+            <div class="section-column footer-section-content-column footer-section-content-column-left">
+                <a class="navbar-brand navbar-brand-image" title="Störtebeker Brauspezialitäten" href="/sbs/">
+                    <img class="navbar-brand-logo-normal" src="/_assets/93b4733d8d6ba44a5d9aec4a5efaaafd/Images/Logo-sbs.svg" alt="Störtebeker Brauspezialitäten" height="36" width="71">
+                </a>
+            </div>
+            <div class="section-column footer-section-content-column footer-section-content-column-right">
+                <f:if condition="{theme.socialmedia.enable}">
+                    <div class="footer-sociallinks">
+                        <f:render partial="Structure/SocialLinks" arguments="{_all}" />
+                    </div>
+                </f:if>
+            </div>
+        </div>
+        <div class="section-row">
+            <div class="section-column footer-section-content-column footer-section-content-column-left">
+                <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '10', slide: '-1'}" />
+            </div>
+            <div class="section-column footer-section-content-column footer-section-content-column-middle">
+                <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '11', slide: '-1'}" />
+            </div>
+            <div class="section-column footer-section-content-column footer-section-content-column-right">
+                <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '12', slide: '-1'}" />
+            </div>
+        </div>
+    </div>
+</section>
+</html>
