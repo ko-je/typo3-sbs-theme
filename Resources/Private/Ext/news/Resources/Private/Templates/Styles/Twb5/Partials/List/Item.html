@@ -7,7 +7,7 @@
 -->
 <n:excludeDisplayedNews newsItem="{newsItem}" />
 <div class="card-menu-item">
-    <div class="card" style="background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 60%), url('{newsItem.mediaPreviews.0.originalResource.publicUrl}') lightgray 50% / cover no-repeat;">
+    <div class="card" style="background: linear-gradient(180deg, rgba(26, 26, 26, 0) 35.44%, #1A1A1A 60.94%), url('{newsItem.mediaPreviews.0.originalResource.publicUrl}') lightgray 50% / cover no-repeat;">
 	<div class="card-img-top">
 		<f:comment>
 		<n:link newsItem="{newsItem}" settings="{settings}" title="{newsItem.title}">
@@ -26,13 +26,14 @@
 	</div>
 
 	<div class="card-body articletype-{newsItem.type}{f:if(condition: newsItem.istopnews, then: ' topnews')}" itemscope="itemscope" itemtype="http://schema.org/Article">
+
+		<f:render partial="General/AdditionalInformation" arguments="{settings:settings,newsItem:newsItem}" />
+
 		<h3 itemprop="headline">
 			<n:link newsItem="{newsItem}" settings="{settings}" title="{newsItem.title}" additionalAttributes="{itemprop:'url'}">
 				{newsItem.title}
 			</n:link>
 		</h3>
-
-		<f:render partial="General/AdditionalInformation" arguments="{settings:settings,newsItem:newsItem}" />
 
 		<!-- teaser -->
 		<div class="lead" itemprop="description">
@@ -48,8 +49,8 @@
 			</n:removeMediaTags>
 		</div>
 
-		<n:link newsItem="{newsItem}" settings="{settings}" class="btn btn-primary btn-read-more" title="{newsItem.title}">
-			<f:translate key="more-link" />
+		<n:link newsItem="{newsItem}" settings="{settings}" class="btn-read-more" title="{newsItem.title}">
+			<f:translate key="more-link" />...
 		</n:link>
 	</div>
 </div>
